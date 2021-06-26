@@ -35,6 +35,12 @@ class StocKing(object):
         self.getBalanceSheet()
         return self._balanceSheet
 
+    @property
+    def setCashflow(self):
+        self.getCashflow()
+        return self._cashflow
+    
+
 
     #// These would normally be in a library
     def write_stderr(self, err_msg):
@@ -51,3 +57,4 @@ class StocKing(object):
         :param msg: The message to be written
         '''
         sys.stdout.write("{0}{1}".format(msg, os.linesep))
+

@@ -18,6 +18,7 @@ class StockObject(StocKing):
 		self._splits = None
 		self._dividens = None
 		self._balanceSheet = None
+		self._cashflow = None
 
 		logging.info("  --{0}--  \n".format(self._tickerSymbol))
 		self.write_stdout("  --{0}--  \n".format(self._tickerSymbol))
@@ -45,6 +46,11 @@ class StockObject(StocKing):
 		logging.info("  --Balance Sheet accessed--  \n")
 		logging.info(self._balanceSheet)
 
+	def getCashflow(self):
+		self._cashflow = self.tickerData.cashflow
+		logging.info("  --Balance Sheet accessed--  \n")
+		logging.info(self._balanceSheet)
+
 
 def main():
 	config_path = "ticker_config.yaml"
@@ -55,18 +61,27 @@ def main():
 		print("  --Running Program--  \n")
 		objectDict = {}
 		tickerSymbol = config["stock_config"][stock]["ticker_symbol"]
+
+		#// Initialize a new object
 		sO = StockObject(tickerSymbol)
 		sO.getTickerData() # trigger signal
 		tickSym = sO.tickerSymbol
+
+		#// create the DataFrames of each object
+		# TODO make this a loop
 		print(f"{tickSym} history is being fetched.")
-		w = pd.DataFrame(sO.setHistory)
+		hSt = pd.DataFrame(sO.setHistory)
 		print(f"{tickSym} splits are being fetched.")
-		x = pd.DataFrame(sO.setSplits)
+		sP = pd.DataFrame(sO.setSplits)
 		print(f"{tickSym} dividends are being fetched.")
-		y = pd.DataFrame(sO.setDividends)
+		dV = pd.DataFrame(sO.setDividends)
 		print(f"{tickSym} balance sheet is being fetched.")
-		z = pd.DataFrame(sO.setBalanceSheet)
-		dataFrame.append([tickSym, w, x, y, z])
+		bS = pd.DataFrame(sO.setBalanceSheet)
+		print(f"{tickSym} cashflow is being fetched")
+		cF = pd.DataFrame(sO.setCashflow)
+		dataFrame.append([tickSym, "\n\n\n\n", hSt, "\n\n\n\n",
+						  sP, "\n\n\n\n", dV, "\n\n\n\n", bS, "\n\n\n\n",
+						  cF, "\n\n\n\n",])
 
 	import pprint
 	pprint.pprint(dataFrame)

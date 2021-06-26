@@ -1,0 +1,781 @@
+  --Running Program--  
+
+  --aapl--  
+
+aapl history is being fetched.
+aapl splits are being fetched.
+aapl dividends are being fetched.
+aapl balance sheet is being fetched.
+aapl cashflow is being fetched
+  --Running Program--  
+
+  --kr--  
+
+kr history is being fetched.
+kr splits are being fetched.
+kr dividends are being fetched.
+kr balance sheet is being fetched.
+kr cashflow is being fetched
+  --Running Program--  
+
+  --mktx--  
+
+mktx history is being fetched.
+mktx splits are being fetched.
+mktx dividends are being fetched.
+mktx balance sheet is being fetched.
+mktx cashflow is being fetched
+  --Running Program--  
+
+  --NTDOY--  
+
+NTDOY history is being fetched.
+NTDOY splits are being fetched.
+NTDOY dividends are being fetched.
+NTDOY balance sheet is being fetched.
+NTDOY cashflow is being fetched
+  --Running Program--  
+
+  --IHE--  
+
+IHE history is being fetched.
+IHE splits are being fetched.
+IHE dividends are being fetched.
+IHE balance sheet is being fetched.
+IHE cashflow is being fetched
+  --Running Program--  
+
+  --UBER--  
+
+UBER history is being fetched.
+UBER splits are being fetched.
+UBER dividends are being fetched.
+UBER balance sheet is being fetched.
+UBER cashflow is being fetched
+  --Running Program--  
+
+  --ALF--  
+
+ALF history is being fetched.
+ALF splits are being fetched.
+ALF dividends are being fetched.
+ALF balance sheet is being fetched.
+ALF cashflow is being fetched
+  --Running Program--  
+
+  --TKNO--  
+
+TKNO history is being fetched.
+TKNO splits are being fetched.
+TKNO dividends are being fetched.
+TKNO balance sheet is being fetched.
+TKNO cashflow is being fetched
+  --Running Program--  
+
+  --ELEV--  
+
+ELEV history is being fetched.
+ELEV splits are being fetched.
+ELEV dividends are being fetched.
+ELEV balance sheet is being fetched.
+ELEV cashflow is being fetched
+[['aapl',
+  '\n\n\n\n',
+                    Open        High  ...  Dividends  Stock Splits
+Date                                ...                         
+1980-12-12    0.100751    0.101189  ...        0.0           0.0
+1980-12-15    0.095933    0.095933  ...        0.0           0.0
+1980-12-16    0.088923    0.088923  ...        0.0           0.0
+1980-12-17    0.090676    0.091114  ...        0.0           0.0
+1980-12-18    0.093304    0.093742  ...        0.0           0.0
+...                ...         ...  ...        ...           ...
+2021-06-21  130.300003  132.410004  ...        0.0           0.0
+2021-06-22  132.130005  134.080002  ...        0.0           0.0
+2021-06-23  133.770004  134.320007  ...        0.0           0.0
+2021-06-24  134.449997  134.639999  ...        0.0           0.0
+2021-06-25  133.460007  133.889999  ...        0.0           0.0
+
+[10221 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+              Dividends
+Date                 
+1987-05-11   0.000536
+1987-08-10   0.000536
+1987-11-17   0.000714
+1988-02-12   0.000714
+1988-05-16   0.000714
+...               ...
+2020-05-08   0.205000
+2020-08-07   0.205000
+2020-11-06   0.205000
+2021-02-05   0.205000
+2021-05-07   0.220000
+
+[71 rows x 1 columns],
+  '\n\n\n\n',
+                               2020-09-26  ...    2017-09-30
+Total Liab                 2.585490e+11  ...  2.412720e+11
+Total Stockholder Equity   6.533900e+10  ...  1.340470e+11
+Other Current Liab         4.786700e+10  ...  3.809900e+10
+Total Assets               3.238880e+11  ...  3.753190e+11
+Common Stock               5.077900e+10  ...  3.586700e+10
+Other Current Assets       1.126400e+10  ...  1.393600e+10
+Retained Earnings          1.496600e+10  ...  9.833000e+10
+Other Liab                 4.610800e+10  ...  4.325100e+10
+Treasury Stock            -4.060000e+08  ... -1.500000e+08
+Other Assets               3.395200e+10  ...  1.817700e+10
+Cash                       3.801600e+10  ...  2.028900e+10
+Total Current Liabilities  1.053920e+11  ...  1.008140e+11
+Short Long Term Debt       8.773000e+09  ...  6.496000e+09
+Other Stockholder Equity  -4.060000e+08  ... -1.500000e+08
+Property Plant Equipment   4.533600e+10  ...  3.378300e+10
+Total Current Assets       1.437130e+11  ...  1.286450e+11
+Long Term Investments      1.008870e+11  ...  1.947140e+11
+Net Tangible Assets        6.533900e+10  ...  1.340470e+11
+Short Term Investments     5.292700e+10  ...  5.389200e+10
+Net Receivables            3.744500e+10  ...  3.567300e+10
+Long Term Debt             9.866700e+10  ...  9.720700e+10
+Inventory                  4.061000e+09  ...  4.855000e+09
+Accounts Payable           4.229600e+10  ...  4.424200e+10
+
+[23 rows x 4 columns],
+  '\n\n\n\n',
+                                               2020-09-26  ...    2017-09-30
+Investments                                5.335000e+09  ... -3.354200e+10
+Change To Liabilities                     -1.981000e+09  ...  8.373000e+09
+Total Cashflows From Investing Activities -4.289000e+09  ... -4.644600e+10
+Net Borrowings                             2.499000e+09  ...  2.901400e+10
+Total Cash From Financing Activities      -8.682000e+10  ... -1.797400e+10
+Change To Operating Activities             8.810000e+08  ... -8.480000e+09
+Issuance Of Stock                          8.800000e+08  ...  5.550000e+08
+Net Income                                 5.741100e+10  ...  4.835100e+10
+Change In Cash                            -1.043500e+10  ... -1.950000e+08
+Repurchase Of Stock                       -7.599200e+10  ... -3.477400e+10
+Total Cash From Operating Activities       8.067400e+10  ...  6.422500e+10
+Depreciation                               1.105600e+10  ...  1.015700e+10
+Other Cashflows From Investing Activities -7.910000e+08  ... -1.240000e+08
+Dividends Paid                            -1.408100e+10  ... -1.276900e+10
+Change To Inventory                       -1.270000e+08  ... -2.723000e+09
+Change To Account Receivables              6.917000e+09  ... -2.093000e+09
+Other Cashflows From Financing Activities -1.260000e+08  ... -1.050000e+08
+Change To Netincome                        6.517000e+09  ...  1.064000e+10
+Capital Expenditures                      -7.309000e+09  ... -1.245100e+10
+
+[19 rows x 4 columns],
+  '\n\n\n\n'],
+ ['kr',
+  '\n\n\n\n',
+                   Open       High        Low  ...    Volume  Dividends  Stock Splits
+Date                                         ...                                   
+1977-01-03   0.057291   0.057291   0.056691  ...    156800        0.0           0.0
+1977-01-04   0.056991   0.057591   0.056691  ...    220800        0.0           0.0
+1977-01-05   0.057591   0.058191   0.057591  ...    134400        0.0           0.0
+1977-01-06   0.058191   0.059391   0.058191  ...    268800        0.0           0.0
+1977-01-07   0.058791   0.058791   0.058491  ...    169600        0.0           0.0
+...               ...        ...        ...  ...       ...        ...           ...
+2021-06-21  38.990002  39.759998  38.529999  ...  10839400        0.0           0.0
+2021-06-22  39.410000  40.080002  39.250000  ...   9580600        0.0           0.0
+2021-06-23  39.810001  39.830002  39.180000  ...   5770500        0.0           0.0
+2021-06-24  39.160000  39.450001  38.900002  ...   5048300        0.0           0.0
+2021-06-25  39.150002  39.430000  39.089901  ...   5930014        0.0           0.0
+
+[11218 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+              Dividends
+Date                 
+1977-01-24    0.01125
+1977-04-25    0.01125
+1977-07-25    0.01250
+1977-10-24    0.01250
+1978-01-26    0.01250
+...               ...
+2020-05-14    0.16000
+2020-08-13    0.18000
+2020-11-12    0.18000
+2021-02-11    0.18000
+2021-05-13    0.18000
+
+[107 rows x 1 columns],
+  '\n\n\n\n',
+                               2021-01-30  ...    2018-02-03
+Intangible Assets          9.970000e+08  ...  1.100000e+09
+Capital Surplus            3.461000e+09  ...  3.161000e+09
+Total Liab                 3.911200e+10  ...  3.029200e+10
+Total Stockholder Equity   9.576000e+09  ...  6.931000e+09
+Minority Interest         -2.600000e+07  ... -2.600000e+07
+Deferred Long Term Liab    7.900000e+07  ...           NaN
+Other Current Liab         5.441000e+09  ...  3.416000e+09
+Total Assets               4.866200e+10  ...  3.719700e+10
+Common Stock               1.918000e+09  ...  1.918000e+09
+Other Current Assets       1.367000e+09  ...  1.765000e+09
+Retained Earnings          2.301800e+10  ...  1.700700e+10
+Other Liab                 4.737000e+09  ...  4.065000e+09
+Good Will                  3.076000e+09  ...  2.925000e+09
+Treasury Stock            -1.882100e+10  ... -1.515500e+10
+Other Assets               6.560000e+08  ...  3.700000e+08
+Cash                       1.687000e+09  ...  3.470000e+08
+Total Current Liabilities  1.536600e+10  ...  1.419700e+10
+Short Long Term Debt       8.440000e+08  ...  3.509000e+09
+Other Stockholder Equity  -6.300000e+08  ... -4.710000e+08
+Property Plant Equipment   2.918200e+10  ...  2.107100e+10
+Total Current Assets       1.250300e+10  ...  1.111700e+10
+Long Term Investments      2.248000e+09  ...  6.140000e+08
+Net Tangible Assets        5.503000e+09  ...  2.906000e+09
+Net Receivables            1.781000e+09  ...  1.637000e+09
+Long Term Debt             1.156600e+10  ...  1.127900e+10
+Inventory                  7.063000e+09  ...  6.533000e+09
+Accounts Payable           6.679000e+09  ...  5.858000e+09
+
+[27 rows x 4 columns],
+  '\n\n\n\n',
+                                               2021-01-30  ...    2018-02-03
+Change To Liabilities                      3.300000e+08  ...  1.580000e+08
+Total Cashflows From Investing Activities -2.814000e+09  ... -2.707000e+09
+Net Borrowings                            -8.480000e+08  ...  1.431000e+09
+Total Cash From Financing Activities      -2.713000e+09  ... -6.810000e+08
+Change To Operating Activities             1.270000e+09  ... -1.241000e+09
+Issuance Of Stock                          1.270000e+08  ...  5.100000e+07
+Net Income                                 2.585000e+09  ...  1.907000e+09
+Change In Cash                             1.288000e+09  ...  2.500000e+07
+Repurchase Of Stock                       -1.324000e+09  ... -1.633000e+09
+Total Cash From Operating Activities       6.815000e+09  ...  3.413000e+09
+Depreciation                               3.440000e+09  ...  2.495000e+09
+Other Cashflows From Investing Activities -1.140000e+08  ... -2.000000e+07
+Dividends Paid                            -5.340000e+08  ... -4.430000e+08
+Change To Inventory                        7.000000e+06  ... -2.300000e+07
+Change To Account Receivables             -9.000000e+07  ...  6.100000e+07
+Other Cashflows From Financing Activities -1.340000e+08  ... -8.700000e+07
+Change To Netincome                       -7.510000e+08  ...  1.520000e+08
+Capital Expenditures                      -2.865000e+09  ... -2.809000e+09
+Investments                                         NaN  ... -1.570000e+08
+
+[19 rows x 4 columns],
+  '\n\n\n\n'],
+ ['mktx',
+  '\n\n\n\n',
+                    Open        High  ...  Dividends  Stock Splits
+Date                                ...                         
+2004-11-05   11.294940   15.600307  ...        0.0             0
+2004-11-08   15.175092   16.725378  ...        0.0             0
+2004-11-09   16.601348   17.363203  ...        0.0             0
+2004-11-10   16.255863   18.816050  ...        0.0             0
+2004-11-11   18.337673   21.624279  ...        0.0             0
+...                ...         ...  ...        ...           ...
+2021-06-21  449.850006  459.399994  ...        0.0             0
+2021-06-22  454.339996  460.019989  ...        0.0             0
+2021-06-23  458.220001  460.809998  ...        0.0             0
+2021-06-24  460.320007  465.089996  ...        0.0             0
+2021-06-25  462.359985  468.950012  ...        0.0             0
+
+[4188 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+              Dividends
+Date                 
+2009-11-06       0.07
+2010-02-12       0.07
+2010-05-10       0.07
+2010-08-09       0.07
+2010-11-05       0.07
+2011-02-14       0.09
+2011-05-09       0.09
+2011-08-09       0.09
+2011-11-08       0.09
+2012-02-14       0.11
+2012-05-08       0.11
+2012-08-07       0.11
+2012-11-07       0.11
+2013-02-12       0.13
+2013-05-07       0.13
+2013-08-06       0.13
+2013-11-05       0.13
+2014-02-11       0.16
+2014-05-06       0.16
+2014-08-05       0.16
+2014-11-04       0.16
+2015-02-10       0.20
+2015-05-05       0.20
+2015-08-04       0.20
+2015-11-02       0.20
+2016-02-09       0.26
+2016-05-10       0.26
+2016-08-09       0.26
+2016-11-07       0.26
+2017-02-07       0.33
+2017-05-09       0.33
+2017-08-08       0.33
+2017-11-07       0.33
+2018-02-13       0.42
+2018-05-08       0.42
+2018-08-08       0.42
+2018-11-06       0.42
+2019-02-12       0.51
+2019-05-07       0.51
+2019-08-06       0.51
+2019-11-05       0.51
+2020-02-11       0.60
+2020-05-12       0.60
+2020-08-04       0.60
+2020-11-09       0.60
+2021-02-09       0.66
+2021-05-11       0.66,
+  '\n\n\n\n',
+                                      2020-12-31  ...   2017-12-31
+Intangible Assets                 9.535400e+07  ...   63059000.0
+Capital Surplus                   3.297420e+08  ...  331081000.0
+Total Liab                        3.763680e+08  ...   66464000.0
+Total Stockholder Equity          9.550610e+08  ...  514768000.0
+Other Current Liab                4.355500e+07  ...   16463000.0
+Total Assets                      1.331429e+09  ...  581232000.0
+Common Stock                      1.230000e+05  ...     121000.0
+Other Current Assets              1.471920e+08  ...    4367000.0
+Retained Earnings                 7.993690e+08  ...  353583000.0
+Other Liab                        1.333260e+08  ...    2660000.0
+Good Will                         1.473880e+08  ...          NaN
+Treasury Stock                   -1.741730e+08  ... -170017000.0
+Cash                              4.608580e+08  ...  167014000.0
+Total Current Liabilities         1.615610e+08  ...   63804000.0
+Other Stockholder Equity         -4.650000e+06  ...  -10226000.0
+Property Plant Equipment          1.611280e+08  ...   38548000.0
+Total Current Assets              9.275590e+08  ...  332836000.0
+Net Tangible Assets               7.123190e+08  ...  451709000.0
+Net Receivables                   2.624490e+08  ...   52636000.0
+Accounts Payable                  4.354900e+07  ...   10839000.0
+Long Term Investments                      NaN  ...  145052000.0
+Other Assets                               NaN  ...    1737000.0
+Deferred Long Term Asset Charges           NaN  ...    1737000.0
+
+[23 rows x 4 columns],
+  '\n\n\n\n',
+                                              2020-12-31  ...   2017-12-31
+Investments                                137792000.0  ...  -28037000.0
+Change To Liabilities                      139332000.0  ...   -1469000.0
+Total Cashflows From Investing Activities   68867000.0  ...  -53653000.0
+Total Cash From Financing Activities      -145112000.0  ... -117068000.0
+Change To Operating Activities               7196000.0  ...   -5320000.0
+Issuance Of Stock                            4007000.0  ...    1972000.0
+Net Income                                 299377000.0  ...  148089000.0
+Change In Cash                             333797000.0  ...   -1229000.0
+Repurchase Of Stock                        -58553000.0  ...  -70152000.0
+Effect Of Exchange Rate                      5553000.0  ...    1457000.0
+Total Cash From Operating Activities       404489000.0  ...  168035000.0
+Depreciation                                37838000.0  ...   19274000.0
+Dividends Paid                             -90566000.0  ...  -48888000.0
+Change To Account Receivables             -200886000.0  ...   -2353000.0
+Change To Netincome                         35162000.0  ...   22964000.0
+Capital Expenditures                       -15010000.0  ...  -12086000.0
+Other Cashflows From Investing Activities          NaN  ...     -59000.0
+
+[17 rows x 4 columns],
+  '\n\n\n\n'],
+ ['NTDOY',
+  '\n\n\n\n',
+                   Open       High        Low  ...  Volume  Dividends  Stock Splits
+Date                                         ...                                 
+1996-11-18   8.551399   8.551399   8.195091  ...   81300        0.0             0
+1996-11-19   8.551399   8.551399   8.195091  ...  138100        0.0             0
+1996-11-20   8.610781   8.788935   8.076318  ...   56000        0.0             0
+1996-11-21   8.551399   8.670169   8.135706  ...   91700        0.0             0
+1996-11-22   8.670167   8.788936   8.313859  ...  200100        0.0             0
+...               ...        ...        ...  ...     ...        ...           ...
+2021-06-21  73.400002  74.250000  73.300003  ...  255300        0.0             0
+2021-06-22  73.010002  73.870003  73.000000  ...  211900        0.0             0
+2021-06-23  72.000000  72.699997  72.000000  ...  202500        0.0             0
+2021-06-24  72.059998  73.339996  72.059998  ...  210500        0.0             0
+2021-06-25  72.260002  72.769997  72.010002  ...  253593        0.0             0
+
+[6192 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+              Dividends
+Date                 
+2001-09-25      0.063
+2002-03-26      0.055
+2002-09-25      0.082
+2003-09-25      0.074
+2004-03-26      0.082
+2004-09-27      0.080
+2005-03-28      0.083
+2005-09-27      0.079
+2006-03-28      0.074
+2006-09-27      0.075,
+  '\n\n\n\n',
+                                      2021-03-31  ...    2018-03-31
+Intangible Assets                 1.492200e+10  ...  1.402000e+10
+Capital Surplus                   1.504300e+10  ...  1.374200e+10
+Total Liab                        5.723050e+11  ...  3.101730e+11
+Total Stockholder Equity          1.874370e+12  ...  1.319035e+12
+Minority Interest                 2.430000e+08  ...  4.540000e+09
+Other Current Liab                4.064270e+11  ...  1.368440e+11
+Total Assets                      2.446918e+12  ...  1.633748e+12
+Common Stock                      1.006500e+10  ...  1.006500e+10
+Other Current Assets              5.069300e+10  ...  7.724100e+10
+Retained Earnings                 1.993325e+12  ...  1.564240e+12
+Other Liab                        4.597400e+10  ...  3.209700e+10
+Treasury Stock                   -1.440630e+11  ... -2.690120e+11
+Other Assets                      8.282000e+10  ...  3.709500e+10
+Cash                              1.185151e+12  ...  7.445550e+11
+Total Current Liabilities         5.263310e+11  ...  2.780760e+11
+Deferred Long Term Asset Charges  8.281900e+10  ...  3.709400e+10
+Other Stockholder Equity          1.278800e+10  ... -1.833300e+10
+Property Plant Equipment          8.356900e+10  ...  8.392600e+10
+Total Current Assets              2.020375e+12  ...  1.276764e+12
+Long Term Investments             2.452320e+11  ...  2.219430e+11
+Net Tangible Assets               1.859448e+12  ...  1.305015e+12
+Short Term Investments            5.572380e+11  ...  2.434310e+11
+Net Receivables                   1.404760e+11  ...  6.974200e+10
+Inventory                         8.681700e+10  ...  1.417950e+11
+Accounts Payable                  1.146770e+11  ...  1.380150e+11
+
+[25 rows x 4 columns],
+  '\n\n\n\n',
+                                               2021-03-31  ...    2018-03-31
+Investments                               -1.378300e+11  ...  7.326200e+10
+Change To Liabilities                      1.738900e+10  ...  9.014000e+09
+Total Cashflows From Investing Activities -1.365330e+11  ...  6.138700e+10
+Total Cash From Financing Activities      -1.949380e+11  ... -6.131100e+10
+Change To Operating Activities             3.382900e+10  ...  2.644600e+10
+Net Income                                 4.803760e+11  ...  1.395900e+11
+Change In Cash                             3.106760e+11  ...  1.535060e+11
+Repurchase Of Stock                       -6.700000e+07  ... -7.800000e+07
+Effect Of Exchange Rate                    3.004200e+10  ...  1.222000e+09
+Total Cash From Operating Activities       6.121060e+11  ...  1.522080e+11
+Depreciation                               1.079800e+10  ...  9.064000e+09
+Other Cashflows From Investing Activities  3.455000e+09  ... -3.250000e+09
+Dividends Paid                            -1.940210e+11  ... -6.482900e+10
+Change To Inventory                        7.244000e+09  ... -1.074540e+11
+Change To Account Receivables             -5.270000e+08  ...  5.158500e+10
+Other Cashflows From Financing Activities -8.500000e+08  ... -1.300000e+07
+Change To Netincome                       -1.379320e+11  ... -3.753700e+10
+Capital Expenditures                      -7.011000e+09  ... -9.609000e+09
+Issuance Of Stock                                   NaN  ...  3.609000e+09
+
+[19 rows x 4 columns],
+  '\n\n\n\n'],
+ ['IHE',
+  '\n\n\n\n',
+                    Open        High         Low  ...  Volume  Dividends  Stock Splits
+Date                                            ...                                 
+2006-05-05   40.645885   40.645885   40.645885  ...     100        0.0             0
+2006-05-08   40.581059   40.589160   40.581059  ...     800        0.0             0
+2006-05-09   40.483820   40.483820   40.305550  ...    2100        0.0             0
+2006-05-10   40.281227   40.281227   40.086751  ...    3300        0.0             0
+2006-05-11   40.078652   40.078652   39.730212  ...    1200        0.0             0
+...                ...         ...         ...  ...     ...        ...           ...
+2021-06-21  185.419998  186.440002  184.750000  ...    2000        0.0             0
+2021-06-22  186.119995  186.169998  185.369995  ...    2000        0.0             0
+2021-06-23  185.149994  185.210007  184.539993  ...    4700        0.0             0
+2021-06-24  185.979996  186.479996  185.979996  ...    2000        0.0             0
+2021-06-25  186.210007  187.639999  186.663803  ...   17268        0.0             0
+
+[3812 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+              Dividends
+Date                 
+2006-06-22      0.110
+2006-09-26      0.095
+2006-12-20      0.122
+2007-03-23      0.151
+2007-06-28      0.130
+...               ...
+2020-06-15      0.314
+2020-09-23      0.709
+2020-12-14      0.526
+2021-03-25      0.635
+2021-06-10      0.721
+
+[62 rows x 1 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume]
+Index: [],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume]
+Index: [],
+  '\n\n\n\n'],
+ ['UBER',
+  '\n\n\n\n',
+                   Open       High        Low  ...     Volume  Dividends  Stock Splits
+Date                                         ...                                    
+2019-05-10  42.000000  45.000000  41.060001  ...  186322500          0             0
+2019-05-13  38.790001  39.240002  36.080002  ...   79442400          0             0
+2019-05-14  38.310001  39.959999  36.849998  ...   46661100          0             0
+2019-05-15  39.369999  41.880001  38.950001  ...   36086100          0             0
+2019-05-16  41.480000  44.060001  41.250000  ...   38115500          0             0
+...               ...        ...        ...  ...        ...        ...           ...
+2021-06-21  49.720001  49.860001  47.900002  ...   30752200          0             0
+2021-06-22  48.299999  49.340000  47.750000  ...   19472500          0             0
+2021-06-23  49.060001  50.770000  49.009998  ...   19843300          0             0
+2021-06-24  51.299999  51.549999  50.220001  ...   12399600          0             0
+2021-06-25  51.180000  51.830002  50.529999  ...   22022070          0             0
+
+[537 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Dividends]
+Index: [],
+  '\n\n\n\n',
+                               2020-12-31  ...    2017-12-31
+Intangible Assets          1.564000e+09  ...  5.400000e+07
+Capital Surplus            3.593100e+10  ...  3.200000e+08
+Total Liab                 1.949800e+10  ...  1.177300e+10
+Total Stockholder Equity   1.226600e+10  ... -8.557000e+09
+Minority Interest          1.488000e+09  ...           NaN
+Other Current Liab         5.750000e+08  ...  1.186000e+09
+Total Assets               3.325200e+10  ...  1.542600e+10
+Other Current Assets       1.111000e+09  ...  1.301000e+09
+Retained Earnings         -2.313000e+10  ... -8.874000e+09
+Other Liab                 3.289000e+09  ...  4.588000e+09
+Good Will                  6.109000e+09  ...  3.900000e+07
+Treasury Stock            -5.350000e+08  ... -3.000000e+06
+Other Assets               2.478000e+09  ...  1.335000e+09
+Cash                       5.647000e+09  ...  4.393000e+09
+Total Current Liabilities  6.865000e+09  ...  3.847000e+09
+Short Long Term Debt       3.300000e+08  ...  8.700000e+07
+Other Stockholder Equity  -5.350000e+08  ... -3.000000e+06
+Property Plant Equipment   3.088000e+09  ...  1.192000e+09
+Total Current Assets       9.882000e+09  ...  6.837000e+09
+Long Term Investments      1.013100e+10  ...  5.969000e+09
+Net Tangible Assets        4.593000e+09  ... -8.650000e+09
+Short Term Investments     1.180000e+09  ...           NaN
+Net Receivables            1.537000e+09  ...  9.260000e+08
+Long Term Debt             7.680000e+09  ...  3.338000e+09
+Accounts Payable           2.350000e+08  ...  2.130000e+08
+
+[25 rows x 4 columns],
+  '\n\n\n\n',
+                                               2020-12-31  ...    2017-12-31
+Investments                               -6.600000e+08  ... -4.120000e+08
+Change To Liabilities                     -1.330000e+08  ... -7.900000e+07
+Total Cashflows From Investing Activities -2.869000e+09  ... -4.870000e+08
+Net Borrowings                             9.860000e+08  ...  1.140000e+08
+Total Cash From Financing Activities       1.379000e+09  ...  1.015000e+09
+Change To Operating Activities             7.230000e+08  ...  2.431000e+09
+Issuance Of Stock                          1.250000e+08  ...  3.000000e+06
+Net Income                                -6.768000e+09  ... -4.033000e+09
+Change In Cash                            -4.676000e+09  ... -9.980000e+08
+Repurchase Of Stock                       -1.700000e+07  ... -1.310000e+08
+Effect Of Exchange Rate                   -9.200000e+07  ...  2.200000e+07
+Total Cash From Operating Activities      -2.745000e+09  ... -1.418000e+09
+Depreciation                               5.200000e+08  ...  4.960000e+08
+Other Cashflows From Investing Activities -1.250000e+08  ... -3.000000e+07
+Change To Account Receivables              1.420000e+08  ... -4.420000e+08
+Other Cashflows From Financing Activities  2.850000e+08  ...  2.100000e+07
+Change To Netincome                        2.671000e+09  ... -4.900000e+07
+Capital Expenditures                      -6.160000e+08  ... -8.210000e+08
+
+[18 rows x 4 columns],
+  '\n\n\n\n'],
+ ['ALF',
+  '\n\n\n\n',
+                Open       High     Low  ...     Volume  Dividends  Stock Splits
+Date                                   ...                                    
+2021-05-04   3.750   3.910000   2.410  ...    4573100          0             0
+2021-05-05   3.100   3.730000   2.960  ...    3752000          0             0
+2021-05-06   5.220   5.600000   3.400  ...   41259200          0             0
+2021-05-07   3.220   3.790000   2.875  ...    8957500          0             0
+2021-05-10   4.880   4.910000   3.860  ...   23111300          0             0
+2021-05-11   3.710   4.325000   3.670  ...    2611700          0             0
+2021-05-12   3.894   4.350000   3.750  ...    3048900          0             0
+2021-05-13   4.050   4.350000   3.620  ...    1343000          0             0
+2021-05-14   3.830   3.900000   3.320  ...    1062700          0             0
+2021-05-17   3.770   3.970000   3.520  ...    1626800          0             0
+2021-05-18   3.630   3.660000   3.440  ...     619600          0             0
+2021-05-19   3.400   3.410000   3.030  ...     897700          0             0
+2021-05-20   3.160   3.282000   3.090  ...     479700          0             0
+2021-05-21   3.120   3.140000   2.940  ...     585600          0             0
+2021-05-24   3.050   3.070000   2.730  ...     651900          0             0
+2021-05-25   2.860   3.090000   2.750  ...     700600          0             0
+2021-05-26   2.970   3.240000   2.880  ...     608000          0             0
+2021-05-27   3.130   3.150000   2.930  ...     311700          0             0
+2021-05-28   2.970   2.990000   2.810  ...     617900          0             0
+2021-06-01   2.880   2.980000   2.830  ...     631000          0             0
+2021-06-02   2.920   3.100000   2.920  ...     572100          0             0
+2021-06-03   3.010   3.100000   2.830  ...     491900          0             0
+2021-06-04   3.030   3.200000   2.920  ...     366800          0             0
+2021-06-07   3.370   3.680000   3.340  ...    1214700          0             0
+2021-06-08   3.564   3.600000   3.230  ...     651400          0             0
+2021-06-09   3.320   3.400000   3.240  ...     358200          0             0
+2021-06-10   3.280   3.705000   3.130  ...    1872200          0             0
+2021-06-11   3.660   3.730000   3.430  ...     304000          0             0
+2021-06-14   3.510   3.600000   3.310  ...     220900          0             0
+2021-06-15   5.140   7.000000   4.660  ...  198807100          0             0
+2021-06-16   5.870   9.220000   5.650  ...   74504200          0             0
+2021-06-17   6.350   7.140000   5.800  ...    9817600          0             0
+2021-06-18   6.130   8.560000   6.011  ...   53930500          0             0
+2021-06-21   8.030   8.900000   7.000  ...   20550400          0             0
+2021-06-22   9.480  16.450001   9.030  ...  216500800          0             0
+2021-06-23  14.070  14.730000  11.310  ...   45401000          0             0
+2021-06-24  11.900  13.750000  11.150  ...   29919700          0             0
+2021-06-25  12.780  20.750000  12.700  ...   89875740          0             0
+
+[38 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Dividends]
+Index: [],
+  '\n\n\n\n',
+                             2020-12-31  2019-12-31  2018-12-31
+Intangible Assets           4384188.0   3198051.0   1033137.0
+Capital Surplus             2024871.0         NaN         NaN
+Total Liab                  6421825.0    791412.0     10533.0
+Total Stockholder Equity   -1469095.0     64864.0     -1936.0
+Other Current Liab           229712.0         NaN         NaN
+Total Assets                7452730.0   3356276.0   1508597.0
+Common Stock                    444.0       315.0       250.0
+Retained Earnings          -3494410.0     64549.0     -2186.0
+Other Assets                1111940.0      7940.0     11666.0
+Cash                           8335.0     38890.0    290336.0
+Total Current Liabilities   6421825.0     32322.0     10533.0
+Short Long Term Debt        5558808.0         NaN         NaN
+Property Plant Equipment     117474.0    107744.0     73739.0
+Total Current Assets        1839128.0     42541.0    390055.0
+Net Tangible Assets        -5853283.0  -3133187.0  -1035073.0
+Net Receivables             1830000.0         NaN         NaN
+Accounts Payable             516705.0     23844.0     10533.0
+Long Term Debt                    NaN    759090.0         NaN,
+  '\n\n\n\n',
+                                             2020-12-31  2019-12-31  2018-12-31
+Change To Liabilities                        492861.0     13311.0     14044.0
+Total Cashflows From Investing Activities  -1660103.0  -2217294.0  -1494304.0
+Net Borrowings                              4799718.0    759090.0    759090.0
+Total Cash From Financing Activities        4799718.0   1759090.0   2000333.0
+Change To Operating Activities             -1719020.0    104546.0   -132959.0
+Net Income                                 -3558959.0     66735.0     -2915.0
+Change In Cash                               -30555.0   -251446.0    387115.0
+Total Cash From Operating Activities       -3170170.0    206758.0   -118915.0
+Depreciation                                 464236.0     22166.0      2915.0
+Change To Inventory                        -1104000.0  -1104000.0  -1104000.0
+Change To Netincome                         2254712.0   2254712.0   2254712.0
+Capital Expenditures                         -23584.0    -52380.0   -116788.0
+Issuance Of Stock                                 NaN         NaN       333.0,
+  '\n\n\n\n'],
+ ['TKNO',
+  '\n\n\n\n',
+                   Open     High        Low  ...   Volume  Dividends  Stock Splits
+Date                                       ...                                  
+2021-06-25  20.719999  27.6399  20.110001  ...  3576631          0             0
+2021-06-25  20.719999  27.6399  20.209999  ...  3618452          0             0
+
+[2 rows x 7 columns],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Dividends]
+Index: [],
+  '\n\n\n\n',
+                             2020-12-31  2019-12-31
+Intangible Assets          19852000.0  20999000.0
+Capital Surplus            14495000.0  14195000.0
+Total Liab                 10506000.0   9962000.0
+Total Stockholder Equity   16767000.0  12910000.0
+Total Assets               62911000.0  58510000.0
+Retained Earnings           2265000.0  -1305000.0
+Other Liab                  6544000.0   4382000.0
+Good Will                  16613000.0  16613000.0
+Treasury Stock                 7000.0     20000.0
+Other Assets                  24000.0     32000.0
+Cash                        3315000.0   4144000.0
+Total Current Liabilities   3962000.0   5580000.0
+Other Stockholder Equity       7000.0     20000.0
+Property Plant Equipment   10008000.0   5450000.0
+Total Current Assets       16414000.0  15416000.0
+Net Tangible Assets       -19698000.0 -24702000.0
+Short Term Investments      1811000.0   5532000.0
+Net Receivables             6569000.0   2986000.0
+Inventory                   3582000.0   2566000.0
+Accounts Payable            1635000.0    768000.0
+Other Current Liab                NaN   1554000.0,
+  '\n\n\n\n',
+                                             2020-12-31  2019-12-31
+Investments                                 3704000.0  -5568000.0
+Change To Liabilities                         53000.0   3930000.0
+Total Cashflows From Investing Activities  -1735000.0  -8357000.0
+Net Borrowings                             -1599000.0   -865000.0
+Total Cash From Financing Activities       -1599000.0   8552000.0
+Change To Operating Activities             -2220000.0     24000.0
+Net Income                                  3570000.0  -1440000.0
+Change In Cash                              -829000.0   2605000.0
+Total Cash From Operating Activities        2505000.0   2410000.0
+Depreciation                                2044000.0   1639000.0
+Other Cashflows From Investing Activities     27000.0     61000.0
+Change To Inventory                         -987000.0   1157000.0
+Change To Account Receivables              -2352000.0    -17000.0
+Change To Netincome                         2397000.0  -2883000.0
+Capital Expenditures                       -5466000.0  -2850000.0
+Issuance Of Stock                                 NaN    270000.0
+Repurchase Of Stock                               NaN -26491000.0,
+  '\n\n\n\n'],
+ ['ELEV',
+  '\n\n\n\n',
+              Open  High    Low  Close   Volume  Dividends  Stock Splits
+Date                                                                  
+2021-06-25  14.0  14.5  11.03  11.44  2228922          0             0
+2021-06-25  14.0  14.5  11.03  11.44  2234402          0             0,
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: []
+Index: [],
+  '\n\n\n\n',
+  Empty DataFrame
+Columns: [Dividends]
+Index: [],
+  '\n\n\n\n',
+                             2020-12-31  2019-12-31
+Intangible Assets             56000.0         NaN
+Capital Surplus               66000.0      9000.0
+Total Liab                  6800000.0    597000.0
+Total Stockholder Equity  -23081000.0  -5873000.0
+Total Assets               80907000.0   1914000.0
+Retained Earnings         -23147000.0  -5882000.0
+Other Liab                    15000.0         NaN
+Other Assets                  65000.0         NaN
+Cash                       79400000.0   1740000.0
+Total Current Liabilities   6785000.0    597000.0
+Total Current Assets       80786000.0   1914000.0
+Net Tangible Assets       -23137000.0  -5873000.0
+Accounts Payable            5679000.0    460000.0,
+  '\n\n\n\n',
+                                             2020-12-31  2019-12-31
+Change To Liabilities                       5219000.0    690000.0
+Total Cashflows From Investing Activities    -71000.0    -71000.0
+Total Cash From Financing Activities       90029000.0  10785000.0
+Change To Operating Activities              -319000.0    -55500.0
+Issuance Of Stock                             20000.0     20000.0
+Net Income                                -17265000.0  -8823000.0
+Change In Cash                             77660000.0   2610000.0
+Total Cash From Operating Activities      -12298000.0  -8175000.0
+Other Cashflows From Financing Activities   -174000.0   -115500.0
+Change To Netincome                           52000.0     13500.0
+Capital Expenditures                         -71000.0    -71000.0,
+  '\n\n\n\n']]
