@@ -1,48 +1,45 @@
 ---
 stock_config: {
   apple: {
-    ticker_symbol: "aapl",
-    short_search: 5,
-    full_search: 20,
+    ticker_symbol: "AAPL",
   },
   kroger: {
-    ticker_symbol: "kr",
-    short_search: 5,
-    full_search: 20
+    ticker_symbol: "KR",
   },
   marketaxes: {
-    ticker_symbol: "mktx",
-    short_search: 5,
-    full_search: 20
+    ticker_symbol: "MKTX",
   },
   nintendo: {
     ticker_symbol: "NTDOY",
-    short_search: 5,
-    full_search: 20,
   },
   ishares: {
     ticker_symbol: "IHE",
-    short_search: 5,
-    full_search: 20,
   },
   uber: {
     ticker_symbol: "UBER",
-    short_search: 5,
-    full_search: 20,
   },
   alf: {
     ticker_symbol: "ALF",
-    short_search: 5,
-    full_search: 20,
   },
   Alpha Teknova: {
     ticker_symbol: "TKNO",
-    short_search: 5,
-    full_search: 20,
   },
   elevation oncology inc.: {
     ticker_symbol: "ELEV",
-    short_search: 5,
-    full_search: 20,
+  },
+  GH Research: {
+    ticker_symbol: "GHRS"
+  },
+  Missfresh Limited: {
+    ticker_symbol: "MF"
+  },
+  Confluent: {
+    ticker_symbol: "CFLT"
+  },
+  Doximity: {
+    ticker_symbol: "DOCS"
+  },
+  Full Truck Alliance: {
+    ticker_symbol: "YMM"
   }
 }
