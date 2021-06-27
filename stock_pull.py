@@ -16,11 +16,17 @@ class StockObject(StocKing):
 		self._tickerSymbol = tickerSymbol
 		self._history = None
 		self._splits = None
-		self._dividens = None
+		self._dividends = None
 		self._balanceSheet = None
 		self._cashflow = None
 
-		logging.info("  --{0}--  \n".format(self._tickerSymbol))
+		self._logger = logging.getLogger(__name__)
+		self._logger.setLevel(logging.INFO)
+		formatter = logging.Formatter("%(asctime)s:%(levelname)s:%(message)s")
+		self._handler = logging.StreamHandler()
+		self._logger.addHandler(self._handler)
+		self._handler.setFormatter(formatter)
+		self._logger.info("  --{0}--  \n".format(self._tickerSymbol))
 		self.write_stdout("  --{0}--  \n".format(self._tickerSymbol))
 
 	def getTickerData(self):
@@ -28,28 +34,23 @@ class StockObject(StocKing):
 
 	def getHistory(self):
 		self._history = self.tickerData.history(period="max")
-		logging.info("  --Stock History accessed--  \n")
-		logging.info(self._history)
+		self._logger.info("  --Stock History accessed--  \n")
 
 	def getSplits(self):
-		self._file = self.tickerData.splits
-		logging.info("  --Stock Splits accessed--  \n")
-		logging.info(self._splits)
+		self._splits = self.tickerData.splits
+		self._logger.info("  --Stock Splits accessed--  \n")
 
 	def getDividends(self):
 		self._dividends = self.tickerData.dividends
-		logging.info("  --Dividens accessed--  \n")
-		logging.info(self._dividens)
+		self._logger.info("  --Dividens accessed--  \n")
 
 	def getBalanceSheet(self):
 		self._balanceSheet = self.tickerData.balance_sheet
-		logging.info("  --Balance Sheet accessed--  \n")
-		logging.info(self._balanceSheet)
+		self._logger.info("  --Balance Sheet accessed--  \n")
 
 	def getCashflow(self):
 		self._cashflow = self.tickerData.cashflow
-		logging.info("  --Balance Sheet accessed--  \n")
-		logging.info(self._balanceSheet)
+		self._logger.info("  --Balance Sheet accessed--  \n")
 
 
 def main():
