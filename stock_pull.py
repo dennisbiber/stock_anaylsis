@@ -5,7 +5,7 @@ import pandas as pd
 import sys
 import yaml
 import yfinance as yf
-
+from datetime import date
 from stocKing import StocKing
 
 
@@ -56,7 +56,10 @@ def main():
 	config_path = "ticker_config.yaml"
 	with open(config_path, "r") as file:
 		config = yaml.load(file, Loader=yaml.FullLoader)
-	dataFrame = []
+
+	todays_date = date.today()
+	if not os.path.exists("{0}".format(todays_date)):
+		os.mkdir("{0}".format(todays_date))
 	for stock in config["stock_config"]:
 		print("  --Running Program--  \n")
 		objectDict = {}
@@ -71,19 +74,16 @@ def main():
 		# TODO make this a loop
 		print(f"{tickSym} history is being fetched.")
 		hSt = pd.DataFrame(sO.setHistory)
-		print(f"{tickSym} splits are being fetched.")
-		sP = pd.DataFrame(sO.setSplits)
-		print(f"{tickSym} dividends are being fetched.")
-		dV = pd.DataFrame(sO.setDividends)
+		if not hSt.empty:
+			hSt.to_csv("{1}/{0}_history.csv".format(stock, todays_date))
 		print(f"{tickSym} balance sheet is being fetched.")
 		bS = pd.DataFrame(sO.setBalanceSheet)
+		if not bS.empty:
+			bS.to_csv("{1}/{0}_balance_sheet.csv".format(stock, todays_date))
 		print(f"{tickSym} cashflow is being fetched")
 		cF = pd.DataFrame(sO.setCashflow)
-		dataFrame.append([tickSym, hSt, sP, dV, bS, cF])
-
-	import pprint
-	pprint.pprint(dataFrame)
-
+		if not cF.empty:
+			cF.to_csv("{1}/{0}_cashflow.csv".format(stock, todays_date))
 
 if __name__ == "__main__":
 	main()

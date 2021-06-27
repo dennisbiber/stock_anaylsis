@@ -41,5 +41,26 @@ stock_config: {
   },
   Full Truck Alliance: {
     ticker_symbol: "YMM"
+  },
+  Tremor International: {
+    ticker_symbol: 'TRMR' 
+  },
+  Angel Oak Mortgage: {
+    ticker_symbol: 'AOMR'
+  },
+  Monday.com: {
+    ticker_symbol: 'MNDY'
+  },
+  DLocal Limited: {
+    ticker_symbol: 'DLO'
+  },
+  FIGS inc: {
+    ticker_symbol: 'FIG'
+  },
+  Flywire corp: {
+    ticker_symbol: 'FLYW'
+  },
+  Paymentus Holdings: {
+    ticker_symbol: 'PAY'
   }
 }
