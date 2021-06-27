@@ -31,6 +31,11 @@ class StockObject(StocKing):
 
 	def getTickerData(self):
 		self.tickerData = yf.Ticker(self._tickerSymbol)
+		self.getHistory()
+		self.getSplits()
+		self.getDividends()
+		self.getBalanceSheet()
+		self.getCashflow()
 
 	def getHistory(self):
 		self._history = self.tickerData.history(period="max")
