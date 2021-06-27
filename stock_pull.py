@@ -79,9 +79,7 @@ def main():
 		bS = pd.DataFrame(sO.setBalanceSheet)
 		print(f"{tickSym} cashflow is being fetched")
 		cF = pd.DataFrame(sO.setCashflow)
-		dataFrame.append([tickSym, "\n\n\n\n", hSt, "\n\n\n\n",
-						  sP, "\n\n\n\n", dV, "\n\n\n\n", bS, "\n\n\n\n",
-						  cF, "\n\n\n\n",])
+		dataFrame.append([tickSym, hSt, sP, dV, bS, cF])
 
 	import pprint
 	pprint.pprint(dataFrame)
