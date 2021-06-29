@@ -1,0 +1,15 @@
+---
+crypto_config: {
+  Bitcoin: {
+    crypto_symbol: "BTC-USD",
+  },
+  Dogecoin: {
+    crypto_symbol: "DOGE-USD",
+  },
+  SHIBAINU USD: {
+    crypto_symbol: 'SHIB-USD',
+  },
+  Kyber Network Coin: {
+    crypto_symbol: 'KNC-USD'
+  }
+}

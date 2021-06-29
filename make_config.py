@@ -5,9 +5,10 @@ class MakeConfig(object):
 
     #// This can be refactored into a parent class for making configs
     #// THen we can have child classes for the specific config.
-    def __init__(self, filename):
+    def __init__(self, fileName, makeType):
         super(MakeConfig, self).__init__()
-        self._filename = filename
+        self._fileName = fileName
+        self._makeType = makeType
         self._tickerSymbol = ""
         self._companyName = ""
         self._msg = ""
@@ -23,7 +24,7 @@ class MakeConfig(object):
     # TODO FIx this so the damn thing will work
     def getYmlFormat(self):
         tS = {}
-        tS = "{0}: '{1}'".format("ticker_config", self._tickerSymbol)
+        tS = "{0}: '{1}'".format(self._makeType, self._tickerSymbol)
         tS = "{\n    " + tS + "\n  }"
         self._msg = ",\n  {0}: {1}".format(self._companyName, tS)
         self._msg = "}" + self._msg
@@ -35,7 +36,7 @@ class MakeConfig(object):
             fileobject.seek(0,2) # move the cursor to the end of the file
             size = fileobject.tell()
             return size
-        with open("ticker_config.yaml", "rb+") as file:
+        with open(self._fileName, "rb+") as file:
             file.seek(-1, os.SEEK_END)
             file.seek(-1, os.SEEK_CUR)
             filesize = get_size(file)
@@ -44,14 +45,18 @@ class MakeConfig(object):
             file.truncate(filesize - 2)
 
     def putIntoFIle(self):
-        file = open("ticker_config.yaml", "a") # append mode
+        file = open(self._fileName, "a") # append mode
         file.write(self._msg + "\n}")
         file.close()
 
 
 def main():
 
-    MC = MakeConfig("ticker_config.yml")
+    makeType = input("1) For stock\n2) For crypto: ")
+    if makeType == "1":
+        MC = MakeConfig("stock_config.yml", "stock_symbol")
+    elif makeType == "2":
+        MC = MakeConfig("crypto_config.yml", "crypto_symbol")
     MC.getTickerSymbol()
     MC.getCompanyName()
     MC.removeBrackets()

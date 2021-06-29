@@ -8,6 +8,8 @@ import yfinance as yf
 from datetime import date
 from stocKing import StocKing
 
+__author = "Dennis Biber"
+
 
 class StockObject(StocKing):
 
